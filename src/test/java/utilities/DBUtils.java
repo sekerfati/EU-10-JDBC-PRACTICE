@@ -32,6 +32,8 @@ public class DBUtils {
             e.printStackTrace();
         }
     }
+
+
     public static void destroy() {
         try {
             if (resultSet != null) {
